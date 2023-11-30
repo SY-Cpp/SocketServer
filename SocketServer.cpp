@@ -59,7 +59,6 @@ int server_init()
 		return -1;
 	}
 
-//	if ((s = socket(AF_INET, SOCK_STREAM, IPPROTO_TCP)) < 0) {
 	if ((s = socket(AF_INET, SOCK_STREAM, IPPROTO_TCP)) < 0) {
 		cout << "socket Error" << endl;
 		return -1;
